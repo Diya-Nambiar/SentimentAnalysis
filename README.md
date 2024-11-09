@@ -10,7 +10,9 @@ This project aims to build a sentiment analysis model using deep learning to det
 
 ## Features
 -**Tokenizer & Padding**: Preprocesses text data by tokenizing words and padding sequences to ensure consistent input length.
+
 -**Deep Learning Model**: LSTM network with dropout layers to handle sequential text data.
+
 -**Binary Sentiment Classification**: Encodes text data for binary classification, predicting positive or negative sentiment.
 
 ## Prerequisites
@@ -32,7 +34,7 @@ To run this project, the following packages are required:
 ## Data Requirements
 The model expects a CSV file (data.csv) with two columns:
 
--text: The text or reviews for analysis.<\p>
+-text: The text or reviews for analysis.
 
 -label: Binary sentiment labels (e.g., 0 for negative, 1 for positive).
 
@@ -40,8 +42,14 @@ The model expects a CSV file (data.csv) with two columns:
 The model architecture includes:
 
 -Embedding Layer: Word embedding for vectorizing input text.
+
 -Spatial Dropout Layer: Reduces overfitting by randomly dropping units.
+
 -LSTM Layer: Processes sequential data to capture context.
+
 -Dense Output Layer: Uses sigmoid activation for binary classification.
 
+## Example
+Review: "The movie was fantastic!" | Predicted Sentiment: 1
+Review: "It was the worst film I've ever seen." | Predicted Sentiment: 0
 
