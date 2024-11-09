@@ -41,16 +41,29 @@ The model expects a CSV file (data.csv) with two columns:
 ## Model Details
 The model architecture includes:
 
--Embedding Layer: Word embedding for vectorizing input text.
+-**Embedding Layer**: Word embedding for vectorizing input text.
 
--Spatial Dropout Layer: Reduces overfitting by randomly dropping units.
+-**Spatial Dropout Layer**: Reduces overfitting by randomly dropping units.
 
--LSTM Layer: Processes sequential data to capture context.
+-**LSTM Layer**: Processes sequential data to capture context.
 
--Dense Output Layer: Uses sigmoid activation for binary classification.
+-**Dense Output Layer**: Uses sigmoid activation for binary classification.
 
 ## Example
 Review: "The movie was fantastic!" | Predicted Sentiment: Positive
 
 Review: "It was the worst film I've ever seen." | Predicted Sentiment: Negative
+
+These examples showcase the model’s effectiveness in correctly identifying sentiment based on context and word associations.
+
+## Conclusion
+The LSTM-based model demonstrated strong performance on the binary sentiment classification task, achieving high accuracy in distinguishing between positive and negative reviews. The LSTM’s sequential processing capability proved valuable in capturing dependencies within text, helping it understand nuanced expressions of sentiment. However, the model’s performance could be further improved by exploring more advanced architectures and refining hyperparameters. This study contributes to the field of sentiment analysis by providing insights into the use of LSTM networks for text-based tasks, offering a strong foundation for more complex NLP applications.
+
+## Future Work
+-**Hyperparameter Tuning**: Conduct systematic experiments to find the optimal learning rate, batch size, and LSTM layer configuration to maximize accuracy and generalization.
+
+-**Advanced Architectures**: Explore bidirectional LSTMs, which consider context from both directions in a sequence, or Transformer-based models that use attention mechanisms to better capture relationships within text.
+
+-**Dataset Expansion**: Train the model on larger and more diverse datasets, which could improve its ability to generalize across different domains and varied expressions of sentiment.
+
 
