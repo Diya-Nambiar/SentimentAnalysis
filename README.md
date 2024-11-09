@@ -50,7 +50,7 @@ The model architecture includes:
 -Dense Output Layer: Uses sigmoid activation for binary classification.
 
 ## Example
-Review: "The movie was fantastic!" | Predicted Sentiment: 1
+Review: "The movie was fantastic!" | Predicted Sentiment: Positive
 
-Review: "It was the worst film I've ever seen." | Predicted Sentiment: 0
+Review: "It was the worst film I've ever seen." | Predicted Sentiment: Negative
 
