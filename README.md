@@ -51,5 +51,6 @@ The model architecture includes:
 
 ## Example
 Review: "The movie was fantastic!" | Predicted Sentiment: 1
+
 Review: "It was the worst film I've ever seen." | Predicted Sentiment: 0
 
