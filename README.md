@@ -6,7 +6,7 @@ A Deep Learning model designed to classify sentiments in movie reviews as either
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Features](#features)
-- [Model Training](#model-training)
+- [ Prerequisites](# prerequisites)
 - [Evaluation](#evaluation)
 - [Results](#results)
 - [Contributing](#contributing)
